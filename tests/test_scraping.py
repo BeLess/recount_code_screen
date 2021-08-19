@@ -1,4 +1,4 @@
-from phone_crawler import PhoneNumberCrawler
+from recount_code_screen.model.phone_crawler import PhoneNumberCrawler
 
 
 def test_phone_regex_dashes() -> None:

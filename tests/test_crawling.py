@@ -1,4 +1,4 @@
-from phone_crawler import PhoneNumberCrawler
+from recount_code_screen.model.phone_crawler import PhoneNumberCrawler
 
 TEST_URL_HOME = "https://therecount.github.io/interview-materials/project-a/1.html"
 TEST_URL_2 = "https://therecount.github.io/interview-materials/project-a/2.html"
