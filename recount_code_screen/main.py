@@ -14,7 +14,7 @@ def crawl():
 
 @crawl.command()
 @click.argument("url")
-@click.option("--depth", default=1, help="Desired tree depth to crawl to. By default only scrapes the given URL")
+@click.option("--depth", default=None, help="Desired tree depth to crawl to. By default only scrapes the given URL")
 def phone_numbers(url: str, depth: str):
     crawler = PhoneNumberCrawler(url=url, depth=int(depth) if depth else None)
     click.echo("Crawling for phone numbers...")
